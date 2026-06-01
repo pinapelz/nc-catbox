@@ -108,7 +108,7 @@ export function FileUploader() {
         completed++
         setUploadProgress(Math.round((completed / totalFiles) * 100))
       }
-      
+
       // Save secret after successful upload
       if (hasSuccessfulUpload) {
         saveSecret(secret)
